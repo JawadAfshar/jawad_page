@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background: radial-gradient(rgba(255, 230, 4, 0.692), rgba(0, 0, 0, 0.836));
+}
+div.p_img{
+    margin: 1%;
+    border-radius: 5px;
+    width: 200px;
+    height: 110px;
+    overflow: hidden;
+    display: inline-block;
+}
+img.img{
+    transition: 0.5s;
+    width: 200px;
+    height: 110px;
+    border-radius: 3px;
+    filter: grayscale(40);
+}
+img.img:hover{
+    width: 260px;
+    height: 230px;
+    filter: grayscale(0);
+}
+img.d_img{
+    width: 10%;
+    display: inline-block;
+    height: auto;
+}img.d_img:active{
+    width: 9.5%;
+    display: inline-block;
+    height: auto;
+}

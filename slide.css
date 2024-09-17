@@ -1,0 +1,47 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: gray;
+    color: green;
+    font-size: 1.2em;
+}
+img.i1, img.i2, img.i3{
+    width: 50%;
+    border-radius: 4px;
+    height: auto;
+    position: absolute;
+    position: fixed;
+}
+img.i1{
+    left: 1%;
+    top: 30%;
+    width: 25%;
+}img.i2{
+    right: 1%;
+    top: 30%;
+    width: 25%;
+}img.i3{
+    left: 25%;
+    top: 20%;
+}
+
+img.left, img.right{
+    width: 8%;
+    height: auto;
+    position: absolute;
+    position: fixed;
+    top: 75%;
+}img.left:active, img.right:active{
+    width: 8.3%;
+    height: auto;
+    position: absolute;
+    position: fixed;
+    top: 75%;
+    top: 74.9%;
+    opacity: 50%;
+}
+img.right{
+    left: 8%;
+}img.left{
+    right: 9%;
+}
